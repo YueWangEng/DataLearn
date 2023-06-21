@@ -9,3 +9,5 @@
 3. 对轴axis=0和axis=1的理解
 1) axis = 1，指的是沿着行求所有列,　相当于axis='columns'
 2) axis = 0，指的是沿着列求所有行,　相当于axis='row'
+
+4. Pandas中nan值可以为除数，结果依旧为nan.
