@@ -15,8 +15,7 @@
         elif row.points < 85:
             return 1
         else:
-            return 2
-        
+            return 2     
   #star_ratings = reviews.apply(star_checking, axis=1)
   reviews.loc[:,'star'] = reviews.apply(star_checking, axis=1)
   ```
